@@ -7,9 +7,9 @@ int fact(int number){
     return number*fact(number-1);
 }
 int main(){
-
+    int num1=6;
     int num=4;
-    int num_factorial=fact(num);
+    int num_factorial=fact(num1);
     cout<<num_factorial;
     return 0;
 }
